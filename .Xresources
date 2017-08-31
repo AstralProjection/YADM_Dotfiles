@@ -3,14 +3,21 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Set transparency for urxvt
-!URxvt*.transparent: true
+URxvt*.transparent: true
 !URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
-!URxvt*.shading: 20
-URxvt*blurRadius: 5
+URxvt*.shading: 20
+!URxvt*blurRadius: 5
 URxvt.scrollBar: off
 
 ! Font
-URxvt.font: xft:Source Code Pro:size=11
+!! Terminus
+URxvt.font:    xft:Terminus-10:hinting=True;antialias:True
+
+!! Source Code Pro
+!URxvt.font:    xft:Source Code Pro for Powerline-10:hinting=True;antialias:Truexft:Source Code Pro for Powerline-10:hinting=True;antialias:True
+
+!! Hack
+!URxvt.font:    xft:Hack:size=10:hinting=True;antialias:True
 
 ! Borders
 URxvt.internalBorder: 10
@@ -50,41 +57,41 @@ Xft.hintstyle:              hintslight
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! special
-*.foreground:   #ceb489
-*.background:   #1c1416
-*.cursorColor:  #af654c
+*.foreground:   #c7ccd1
+*.background:   #1c2023
+*.cursorColor:  #c7ccd1
 
 ! black
-*.color0:       #1c1416
-*.color8:       #a1a6b2
+*.color0:       #1c2023
+*.color8:       #747c84
 
 ! red
-*.color1:       #af654c
-*.color9:       #b22b31
+*.color1:       #c7ae95
+*.color9:       #c7ae95
 
 ! green
-*.color2:       #ceb489
-*.color10:      #ceb489
+*.color2:       #95c7ae
+*.color10:      #95c7ae
 
 ! yellow
-*.color3:       #a08a00
-*.color11:      #715f00
+*.color3:       #aec795
+*.color11:      #aec795
 
 ! blue
-*.color4:       #484e60
-*.color12:      #0065ca
+*.color4:       #ae95c7
+*.color12:      #ae95c7
 
 ! magenta
-*.color5:       #d160c4
-*.color13:      #a03196
+*.color5:       #c795ae
+*.color13:      #c795ae
 
 ! cyan
-*.color6:       #00a4c1
-*.color14:      #007693
+*.color6:       #95aec7
+*.color14:      #95aec7
 
 ! white
-*.color7:       #3e424d
-*.color15:      #ceb489
+*.color7:       #c7ccd1
+*.color15:      #f3f4f5
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Rofi application switcher settings
